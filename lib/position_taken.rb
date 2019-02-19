@@ -1,4 +1,4 @@
-require "pry"
+
 def position_taken?(board, index)
   if board[index] == "X"
     return true
@@ -7,5 +7,4 @@ def position_taken?(board, index)
   else
     return false
   end
-    binding.pry
 end
