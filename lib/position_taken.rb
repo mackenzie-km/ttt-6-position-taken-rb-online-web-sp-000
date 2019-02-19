@@ -4,6 +4,6 @@ def position_taken?(board, index)
     return TRUE
   else
     return FALSE
-    binding.pry
   end
+    binding.pry
 end
